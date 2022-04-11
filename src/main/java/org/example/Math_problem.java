@@ -33,17 +33,18 @@ public class Math_problem {
     public void calculate() {
         int i = 0;
 
-        // End result (n) should be 1
-        while (n != 1) {
-            if (n % 2 == 0) {
-                n = n / 2;
-            } else {
-                n = n * 3 + 1;
+
+            // End result (n) should be 1
+            while (n != 1) {
+                if (n % 2 == 0) {
+                    n = n / 2;
+                } else {
+                    n = n * 3 + 1;
+                }
+                i++;
             }
-            i++;
+            if (output != null) {
+                output.append("Iterations: " + i);
+            }
         }
-        if (output != null) {
-            output.append("Iterations: " + i);
-        }
-    }
 }
