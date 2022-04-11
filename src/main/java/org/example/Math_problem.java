@@ -24,15 +24,6 @@ public class Math_problem {
         });
 
         math.calculate();
-
-//        while (true)
-//        {
-//            Scanner scan = new Scanner(System.in);
-//            int user_input = scan.nextInt();
-//
-////        System.out.println(user_input);
-//            calculate(user_input);
-//        }
     }
 
     public void setOutput(Output output) {
@@ -41,7 +32,6 @@ public class Math_problem {
 
     public void calculate() {
         int i = 0;
-//         n = 21;
 
         // End result (n) should be 1
         while (n != 1) {
@@ -52,7 +42,6 @@ public class Math_problem {
             }
             i++;
         }
-//        System.out.println("Iterations: " + i);
         if (output != null) {
             output.append("Iterations: " + i);
         }

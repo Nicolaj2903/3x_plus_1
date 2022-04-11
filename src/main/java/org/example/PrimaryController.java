@@ -21,9 +21,6 @@ public class PrimaryController {
 
     public void startCalculating(MouseEvent event)
     {
-        // Empty the string
-//        textArea.setText("");
-
         Math_problem math = new Math_problem(Integer.parseInt(textField.getText().replace(".", "")));
 
             math.setOutput(new Output() {
