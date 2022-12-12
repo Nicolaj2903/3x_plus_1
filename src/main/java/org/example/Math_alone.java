@@ -33,3 +33,5 @@ public class Math_alone {
         System.out.println("Iterations: " + i);
     }
 }
+
+// Test
